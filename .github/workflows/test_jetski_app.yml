@@ -14,4 +14,4 @@ jobs:
           ruby-version: '3.4'
           bundler-cache: true
       - run: echo "Running tests on jetski app now!"
-      - run: cd jetski-app && bundle exec ruby test_app.rb
+      - run: cd jetski-app && bundle install && bundle exec ruby test_app.rb
