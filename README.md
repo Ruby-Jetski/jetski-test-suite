@@ -2,6 +2,8 @@
 
 To run choose which suite to use
 
+Testing the [🌊 Jetski Web Framework](https://github.com/indigotechtutorials/jetski)
+
 ### Jetski generations
 
 test the generations of new apps using Jetski!
