@@ -1,4 +1,4 @@
-# Jetski test suite
+# 🌊 Jetski test suite
 
 To run choose which suite to use
 
@@ -6,6 +6,10 @@ To run choose which suite to use
 
 test the generations of new apps using Jetski!
 
+cd into folder
+
 `cd jetski-generations`
 
-`bundle exec ruby test_jetski.rb`
+run tests
+
+`ruby test_jetski.rb`

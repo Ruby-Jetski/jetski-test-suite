@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jetski', path: '/Users/indigo/Current Projects/jetski'
+gem 'jetski'
 gem 'pry'
 gem 'minitest'

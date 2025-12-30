@@ -1,3 +1,4 @@
+require "bundler/setup"
 require "jetski"
 
 require "minitest/autorun"
