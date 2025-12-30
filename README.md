@@ -13,3 +13,15 @@ cd into folder
 run tests
 
 `ruby test_jetski.rb`
+
+### Jetski app
+
+run tests in a real live jetski app
+
+cd into folder
+
+`cd jetski-app`
+
+run tests
+
+`ruby test_app.rb`
