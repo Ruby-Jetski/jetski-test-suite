@@ -1,0 +1,17 @@
+name: Test Jetski Generations
+run-name: ${{ github.actor }} is testing Jetski!
+on: [push]
+jobs:
+  Test-Jetski-Generations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checks out repository code
+        uses: actions/checkout@v5
+      - run: echo "The github repo has been cloned"
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
+      - run: echo "Running tests on jetski generations now!"
+      - run: cd jetski-generations && bundle install && bundle exec ruby test_jetski.rb
