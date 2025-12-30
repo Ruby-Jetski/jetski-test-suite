@@ -9,5 +9,3 @@ test the generations of new apps using Jetski!
 `cd jetski-generations`
 
 `bundle exec ruby test_jetski.rb`
-
-# jetski-test-suite
